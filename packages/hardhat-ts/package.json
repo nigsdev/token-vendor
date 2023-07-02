@@ -11,13 +11,13 @@
     "export": "hardhat export --export-all ../vite-app-ts/src/generated/contracts/hardhat_contracts.json",
     "postdeploy": "hardhat run scripts/publish.ts",
     "watch": "node scripts/watch.js",
-    "verify": "hardhat etherscan-verify --api-key USCBGCSZNQ5E5VMWZUWQXBHSBI6S6KJQY2",
+    "verify": "hardhat etherscan-verify --api-key ----key----",
     "accounts": "hardhat accounts",
     "balance": "hardhat balance",
     "send": "hardhat send",
     "generate": "hardhat generate",
     "account": "hardhat account",
-    "etherscan-verify": "hardhat etherscan-verify --api-key USCBGCSZNQ5E5VMWZUWQXBHSBI6S6KJQY2"
+    "etherscan-verify": "hardhat etherscan-verify --api-key ----key----"
   },
   "dependencies": {
     "@eth-optimism/hardhat-ovm": "^0.2.2",
